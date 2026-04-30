@@ -22,10 +22,13 @@ This project performs an end-to-end exploratory data analysis on Shopshere's tra
 | Improving cohorts | March and June 2024 cohorts show ~30% retention, suggesting recent efforts are gaining traction |
 | Optimal clusters | 4 segments identified via elbow method |
 
+
 <img width="393" height="271" alt="Image" src="https://github.com/user-attachments/assets/36948119-bef8-4e83-99ee-9f086cb2a3b0" />
-4 segments identified via elbow method
+> *Fig. 1 — Elbow Plot used to identify 4 segments.*
+
 
 <img width="445" height="423" alt="Image" src="https://github.com/user-attachments/assets/c3def175-4af0-45fe-9a0d-17edde9569bf" />
+> *Fig. 2 — Customer Segment Composition*
 
 **Customer Segments (RFM-based K-Means):**
 - 🟥 **V-VIPs** — highest spenders, most frequent and most recent purchasers
