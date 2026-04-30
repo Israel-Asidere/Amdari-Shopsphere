@@ -8,11 +8,6 @@ Shopshere is an online shopping platform operating across multiple markets, conn
 ## 📌 Project Overview
 This project performs an end-to-end exploratory data analysis on Shopshere's transaction data (385,314 records, 8 features, covering 2023–2024). The analysis covers data quality checks, distribution analysis, cohort retention tracking, and RFM-based customer segmentation using K-Means clustering. Four distinct customer segments were identified, each with a tailored set of conversion and retention strategies designed to move users up the value ladder.
 
-**Potential visualisations to add:**
-- Missingness matrix confirming zero null values across all 8 features
-- Histogram and boxplot of UnitPrice and Quantity showing distribution shape and outlier spread
-- Bar chart comparing customer counts across the US and UK markets
-- Cohort retention heatmap tracking monthly repurchase rates from first purchase date
 
 ---
 
@@ -27,6 +22,9 @@ This project performs an end-to-end exploratory data analysis on Shopshere's tra
 | Improving cohorts | March and June 2024 cohorts show ~30% retention, suggesting recent efforts are gaining traction |
 | Optimal clusters | 4 segments identified via elbow method |
 
+<img width="393" height="271" alt="Image" src="https://github.com/user-attachments/assets/36948119-bef8-4e83-99ee-9f086cb2a3b0" />
+4 segments identified via elbow method
+
 <img width="445" height="423" alt="Image" src="https://github.com/user-attachments/assets/c3def175-4af0-45fe-9a0d-17edde9569bf" />
 
 **Customer Segments (RFM-based K-Means):**
@@ -34,12 +32,6 @@ This project performs an end-to-end exploratory data analysis on Shopshere's tra
 - 🟦 **VIPs** — high engagement and spend, slightly less active than V-VIPs
 - 🟧 **Loyal Regulars** — consistent buyers with moderate frequency and spend
 - 🟩 **At Risk / Lost** — low engagement, long gap since last purchase
-
-**Potential visualisations to add:**
-- Elbow plot showing the optimal cluster count at K=4
-- Radar chart comparing RFM scores across all four segments to highlight behavioural differences
-- Bar chart of average Recency, Frequency, and Monetary values per segment
-- Pie or donut chart showing the proportion of customers in each segment
 
 ---
 
